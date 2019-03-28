@@ -18,6 +18,10 @@ int main(int argc, const char * argv[]) {
         cout << "The biggest number is - " << arr[1] << endl;
     }
     
+    else if (arr[2] > arr[0] && arr[2] > arr[1] && arr[2] > arr[3] && arr[2] > arr[4]) {
+        cout << "The biggest number is - " << arr[2] << endl;
+    }
+    
     
     
     
