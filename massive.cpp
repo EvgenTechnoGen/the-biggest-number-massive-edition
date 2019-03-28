@@ -26,7 +26,9 @@ int main(int argc, const char * argv[]) {
         cout << "The biggest number is - " << arr[3] << endl;
     }
     
-    
+    else if (arr[4] > arr[0] && arr[4] > arr[1] && arr[4] > arr[2] && arr[4] > arr[3]) {
+        cout << "The biggest number is - " << arr[4] << endl;
+    }
     
     
     
